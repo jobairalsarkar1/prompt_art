@@ -1,6 +1,6 @@
 # Text-to-Image Generator 🎨
 
-![Project Banner](./src/assets/placeholder.png)
+![Project Banner](./client/src/assets/placeholder.png)
 
 Welcome to the **Text-to-Image Generator**! This project allows users to generate images from text prompts using Stability AI's image generation API. Built with **React** and styled with **Tailwind CSS**, this app provides a seamless and visually appealing interface for creative exploration.
 
