@@ -26,5 +26,3 @@ Welcome to the **Text-to-Image Generator**! This project allows users to generat
 </div>
 
 ---
-
-## 📂 Project Structure
