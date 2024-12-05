@@ -36,7 +36,7 @@ const Home = () => {
           validateStatus: undefined,
           responseType: "arraybuffer",
           headers: {
-            Authorization: `Bearer ${import.meta.env.VITE_STABILITY_API_KEY}`,
+            Authorization: `Bearer ${import.meta.env.VITE_STABILITY_API_ID}`,
             Accept: "image/*",
           },
         }
