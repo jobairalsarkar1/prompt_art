@@ -11,7 +11,6 @@ Welcome to the **Text-to-Image Generator**! This project allows users to generat
 - **Text-to-Image Generation**: Convert any text prompt into a stunning AI-generated image.
 - **Real-Time Updates with WebSocket**: Stay connected for live image generation updates and responses, providing a smooth, interactive user experience.
 - **Responsive UI**: Fully responsive design powered by Tailwind CSS.
-- **Customizable Styling**: Easy to tweak and style components for a personalized touch.
 - **Integration with Stability AI**: Harness the power of Stability AI for high-quality image generation.
 
 ---
