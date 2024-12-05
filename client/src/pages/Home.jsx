@@ -76,7 +76,7 @@ const Home = () => {
       formData.append("prompt", prompt);
 
       const uploadResponse = await axios.post(
-        "http://localhost:5000/api/v1/post/upload-img",
+        "https://prompt-art.onrender.com/api/v1/post/upload-img",
         formData
       );
 

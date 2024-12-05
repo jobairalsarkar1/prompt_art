@@ -6,13 +6,13 @@ import { io } from "socket.io-client";
 const Store = () => {
   const [posts, setPosts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const socket = io("http://localhost:5000");
+  const socket = io("https://prompt-art.onrender.com");
 
   useEffect(() => {
     const fetchPosts = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/v1/post/get-posts"
+          "https://prompt-art.onrender.com/api/v1/post/get-posts"
         );
         setPosts(response.data);
       } catch (error) {
