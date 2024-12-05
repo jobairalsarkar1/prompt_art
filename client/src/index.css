@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .header {
+    @apply px-10 sm:px-16 py-4 flex justify-between items-center;
+  }
+
+  .max-container {
+    @apply px-10 sm:px-16 py-4 h-[calc(100vh-73px)];
+  }
+
+  .btn {
+    @apply px-4 py-6 rounded-lg;
+  }
+}
