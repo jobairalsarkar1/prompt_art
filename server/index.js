@@ -21,7 +21,8 @@ const io = new Server(server, {
 
 setIoInstance(io);
 app.use(express.json());
-app.use(cors());
+app.use(bodyParser.json());
+app.use(cors({ origin: "https://prompt-art-psi.vercel.app" }));
 
 app.use(bodyParser.json());
 app.use("/api/v1/post", postRoutes);
