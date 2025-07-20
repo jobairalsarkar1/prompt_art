@@ -16,6 +16,7 @@ const Navbar = () => {
         </p>
       </Link>
       <nav className="flex items-center justify-center gap-7">
+        <Link to="/">Generate</Link>
         <Link to="/store">Store</Link>
         {/* {user ? (
           <div className="flex items-center gap-3">
